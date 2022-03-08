@@ -1,0 +1,40 @@
+/*Global*/
+$color-one: rgb(241, 206, 4);
+$color-two: rgb(250, 250 ,250);
+$color-three: rgb(16, 16, 16);
+
+body {
+    font-family: 'Cormorant Garamond', serif;
+}
+header {
+    width: 100%;
+    background-image: url("https://images.pexels.com/photos/4992673/pexels-photo-4992673.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+.title {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700;
+}
+nav {
+    display: flex;
+    justify-content: space-between ;
+    div {
+        // display: inline-block;
+        .nav-title {
+            font-family: 'Dancing Script', cursive;
+            color: $color-one;
+            padding-left: 16px;
+        }
+        ul {
+            list-style: none;
+            li {
+                display: inline;
+                a {
+                text-decoration: none;
+                font-weight: 900;
+                color: $color-two;
+                padding-right: 8px;
+                }
+            }
+        }
+    }
+}

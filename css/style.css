@@ -1,0 +1,38 @@
+/*Global*/
+body {
+  font-family: "Cormorant Garamond", serif;
+}
+
+header {
+  width: 100%;
+  background-image: url("https://images.pexels.com/photos/4992673/pexels-photo-4992673.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
+.title {
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav div .nav-title {
+  font-family: "Dancing Script", cursive;
+  color: #f1ce04;
+  padding-left: 16px;
+}
+nav div ul {
+  list-style: none;
+}
+nav div ul li {
+  display: inline;
+}
+nav div ul li a {
+  text-decoration: none;
+  font-weight: 900;
+  color: #fafafa;
+  padding-right: 8px;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxTQUFBO0FBS0E7RUFDSSx3Q0FBQTtBQ0hKOztBREtBO0VBQ0ksV0FBQTtFQUNBLHVJQUFBO0FDRko7O0FESUE7RUFDSSxnQ0FBQTtFQUNBLGdCQUFBO0FDREo7O0FER0E7RUFDSSxhQUFBO0VBQ0EsOEJBQUE7QUNBSjtBREdRO0VBQ0ksc0NBQUE7RUFDQSxjQXRCQTtFQXVCQSxrQkFBQTtBQ0RaO0FER1E7RUFDSSxnQkFBQTtBQ0RaO0FERVk7RUFDSSxlQUFBO0FDQWhCO0FEQ2dCO0VBQ0EscUJBQUE7RUFDQSxnQkFBQTtFQUNBLGNBL0JKO0VBZ0NJLGtCQUFBO0FDQ2hCIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */
