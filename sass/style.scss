@@ -2,6 +2,7 @@
 $color-one: rgb(214, 168, 18);
 $color-two: rgb(250, 250 ,250);
 $color-three: rgb(16, 16, 16);
+$color-four: rgb(68, 68, 68);
 
 body {
     font-family: 'Cormorant Garamond', serif;
@@ -64,4 +65,41 @@ nav {
     color: $color-two;
     text-decoration: none;
     border-radius: 7%;
+}
+main {
+    padding-top: 60px;
+}
+.section-title {
+    display: flex;
+    text-align: center;
+    align-content: space-around;
+    flex-direction: column;
+    padding-bottom: 38px;
+    h2 {
+        font-weight: 800;
+    }
+    h3 {
+        color: $color-four;
+    }
+}
+.section-one {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    .container-one {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        div {
+            width: 20%;
+            padding: 0 4%;
+            i {
+                font-size: 26px;
+                color: $color-two;
+                background-color: $color-one;
+                padding: 12px;
+                border-radius: 50%;
+            }
+        }
+    }
 }

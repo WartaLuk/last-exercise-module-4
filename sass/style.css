@@ -69,3 +69,48 @@ nav div ul li a {
   text-decoration: none;
   border-radius: 7%;
 }
+
+main {
+  padding-top: 60px;
+}
+
+.section-title {
+  display: flex;
+  text-align: center;
+  align-content: space-around;
+  flex-direction: column;
+  padding-bottom: 38px;
+}
+
+.section-title h2 {
+  font-weight: 800;
+}
+
+.section-title h3 {
+  color: #444444;
+}
+
+.section-one {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.section-one .container-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.section-one .container-one div {
+  width: 20%;
+  padding: 0 4%;
+}
+
+.section-one .container-one div i {
+  font-size: 26px;
+  color: #fafafa;
+  background-color: #d6a812;
+  padding: 12px;
+  border-radius: 50%;
+}
