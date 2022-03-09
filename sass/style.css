@@ -1,6 +1,7 @@
 /*Global*/
 body {
   font-family: 'Cormorant Garamond', serif;
+  background-color: #fafafa;
 }
 
 header {
@@ -8,6 +9,7 @@ header {
   min-height: 530px;
   color: #fafafa;
   background-image: url("https://images.pexels.com/photos/4992673/pexels-photo-4992673.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  object-fit: cover;
 }
 
 .title {
@@ -96,13 +98,15 @@ main {
   flex-direction: column;
   padding-bottom: 48px;
   flex-wrap: wrap;
-  align-content: space-between;
+  padding-bottom: 9%;
 }
 
 .section .container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
+  max-width: 100vw;
+  flex-wrap: wrap;
 }
 
 .section .container .services {
@@ -119,10 +123,168 @@ main {
 }
 
 .section .container .portfolio {
-  width: 30%;
-  padding: 0 3%;
+  width: 28%;
+  padding-bottom: 6%;
 }
 
 .section .container .portfolio img {
-  height: 320px;
+  height: 300px;
+  width: 90%;
+  object-fit: cover;
+}
+
+.section .container .portfolio h4 {
+  color: #444444;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: space-around;
+}
+
+footer .copyright {
+  color: #444444;
+  font-size: 12px;
+}
+
+footer .copyright i {
+  font-size: 10px;
+  padding-right: 4px;
+}
+
+footer .icons i {
+  font-size: 28px;
+  padding-right: 16px;
+  color: #d6a812;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  header {
+    min-height: 430px;
+  }
+  .title {
+    font-weight: 600;
+    padding: 14px 0;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  nav div .nav-title {
+    padding-left: 14px;
+  }
+  nav div ul li a {
+    font-weight: 800;
+    padding-right: 6px;
+  }
+  .page-title {
+    gap: 26px;
+  }
+  .page-title h1, .page-title h2, .page-title a {
+    margin-top: 40px;
+  }
+  .page-title h1 {
+    font-size: 48px;
+  }
+  .page-title h2 {
+    font-size: 34px;
+  }
+  .btn {
+    padding: 10px 14px;
+  }
+  main {
+    padding-top: 50px;
+  }
+  .section-title {
+    padding-bottom: 34px;
+  }
+  .section-title h2 {
+    font-weight: 700;
+  }
+  .section {
+    padding-bottom: 44px;
+    padding-bottom: 9%;
+  }
+  .section .container {
+    max-width: 100vw;
+  }
+  .section .container .services {
+    width: 40%;
+    padding: 0 4%;
+  }
+  .section .container .services i {
+    font-size: 24px;
+    padding: 10px;
+  }
+  .section .container .portfolio {
+    width: 45%;
+    padding-bottom: 6%;
+  }
+  .section .container .portfolio img {
+    height: 300px;
+    width: 90%;
+  }
+}
+
+@media (max-width: 767px) {
+  header {
+    min-height: 380px;
+  }
+  .title {
+    padding: 12px 0;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  nav div .nav-title {
+    padding-left: 12px;
+  }
+  nav div ul li a {
+    padding-right: 5px;
+  }
+  .page-title {
+    gap: 24px;
+  }
+  .page-title h1, .page-title h2, .page-title a {
+    margin-top: 30px;
+  }
+  .page-title h1 {
+    font-size: 44px;
+  }
+  .page-title h2 {
+    font-size: 32px;
+  }
+  .btn {
+    padding: 8px 12px;
+  }
+  main {
+    padding-top: 40px;
+  }
+  .section-title {
+    padding-bottom: 26px;
+  }
+  .section {
+    padding-bottom: 38px;
+  }
+  .section .container {
+    max-width: 95vw;
+  }
+  .section .container .services {
+    width: 90%;
+  }
+  .section .container .services i {
+    font-size: 20px;
+    padding: 8px;
+  }
+  .section .container .portfolio {
+    width: 90%;
+    padding-bottom: 6%;
+  }
+  .section .container .portfolio img {
+    height: 260px;
+    width: 90%;
+  }
 }
