@@ -90,27 +90,39 @@ main {
   color: #444444;
 }
 
-.section-one {
+.section {
   display: flex;
   text-align: center;
   flex-direction: column;
+  padding-bottom: 48px;
+  flex-wrap: wrap;
+  align-content: space-between;
 }
 
-.section-one .container-one {
+.section .container {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.section-one .container-one div {
+.section .container .services {
   width: 20%;
   padding: 0 4%;
 }
 
-.section-one .container-one div i {
+.section .container .services i {
   font-size: 26px;
   color: #fafafa;
   background-color: #d6a812;
   padding: 12px;
   border-radius: 50%;
+}
+
+.section .container .portfolio {
+  width: 30%;
+  padding: 0 3%;
+}
+
+.section .container .portfolio img {
+  height: 320px;
 }

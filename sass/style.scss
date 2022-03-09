@@ -82,15 +82,18 @@ main {
         color: $color-four;
     }
 }
-.section-one {
+.section {
     display: flex;
     text-align: center;
     flex-direction: column;
-    .container-one {
+    padding-bottom: 48px;
+    flex-wrap: wrap;
+    align-content: space-between;
+    .container {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        div {
+        .services {
             width: 20%;
             padding: 0 4%;
             i {
@@ -99,6 +102,13 @@ main {
                 background-color: $color-one;
                 padding: 12px;
                 border-radius: 50%;
+            }
+        }
+        .portfolio {
+            width: 30%;
+            padding: 0 3%;
+            img {
+                height: 320px;
             }
         }
     }
